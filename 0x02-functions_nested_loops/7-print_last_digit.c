@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * print_last_digit - prints the last value of a number
  * c: number
@@ -8,6 +7,7 @@
  */
 int print_last_digit(int c)
 {
+
 	int a;
 
 	if (c < 0)
