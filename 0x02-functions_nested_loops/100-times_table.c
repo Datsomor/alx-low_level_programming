@@ -1,22 +1,16 @@
 #include "main.h"
-/**
- * print_times_table - Print the times table up to a given value.
- * @n: The number up to which the times table will be printed.
- *
- * This function prints the times table from 0 to 'n'. It generates
- * the multiplication table for each value from 0 to 'n' and formats
- * the output to align the numbers neatly.
- *
- * Note: The function assumes 'n' is within the range of 0 to 15.
- *
- */
-void print_times_table(int n)
-{
+
+
+	/**
+	 * print_times_table - prints the n times table, starting with 0
+	 * @n: number of the times table
+	 */
+	void print_times_table(int n)
 	{
 		int i, j, k;
 
-			if (n >= 0 && n <= 15)
 
+		if (n >= 0 && n <= 15)
 		{
 			for (i = 0; i <= n; i++)
 			{
@@ -52,4 +46,4 @@ void print_times_table(int n)
 				_putchar('\n');
 			}
 		}
-	}
+	}				
