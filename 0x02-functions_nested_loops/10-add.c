@@ -7,9 +7,14 @@
  *
  * Return: Sum of operation
  */
-int add(int a, int b)
-{
-	int sum = a + b;
+	int add(int a, int b)
+	{
+		int c;
 
-	return (sum);
-}
+
+		c = a + b;
+
+
+		return (c);
+	}
+
