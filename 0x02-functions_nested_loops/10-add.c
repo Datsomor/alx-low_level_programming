@@ -1,20 +1,22 @@
 #include "main.h"
 
+
 /**
- * add - sum of two numbers
- * a: First operand
- * b: Second operand
+ * add - Calculate the sum of two numbers.
+ * @a: The first number.
+ * @b: The second number.
  *
- * Return: Sum of operation
+ * This function takes two integer values and returns their sum.
+ * It calculates the sum of 'a' and 'b' and returns the result.
+ *
+ * Return: The sum of 'a' and 'b'.
  */
-	int add(int a, int b)
-	{
-		int c;
+int add(int a, int b)
+{
+    int c;
 
+    c = a + b;
 
-		c = a + b;
-
-
-		return (c);
-	}
+    return c;
+}
 
