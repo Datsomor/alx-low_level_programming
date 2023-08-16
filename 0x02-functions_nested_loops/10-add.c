@@ -1,6 +1,4 @@
 #include "main.h"
-
-
 /**
  * add - Calculate the sum of two numbers.
  * @a: The first number.
